@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;
+    background-color: white;
+    padding: 10px 0 14px 0;
+  }
+  li {
+    display: inline;
+  }
+  ul li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 15px;
+    color: black;
+    z-index: 2;
+  }
+  ul li:first-child a:first-child{
+      background-color: red;
+      opacity: 0.8;
+      color: white;
+  }
+  ul li:first-child a:first-child:hover{
+      color: black;
+      background-color: lightgray;
+  }
+  ul li:last-child{
+    position: absolute;
+    right: 0;  
+  }
+  ul li:last-child a{
+    background-color: lightgray;
+  }
+  ul li:last-child a:hover{
+background-color: gray;
+  }
+  a:hover {
+    color: red;
+    background-color: lightgray;
+  }
+  
+  body{
+    height: 3000px;
+    background-color: lightgray;
+  }
+  h2{
+    font-weight: 200;
+  }
+  .home-content{
+    height: 90vh;
+    background-image: url("../Images/hotel.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 50;  
+    opacity: 0.8;
+}
+.home-form{
+    background-color: white;
+    width: 50%; 
+    height: 40vh;
+     
+}
+
+.home-form h1{
+    background-color: red;
+    padding: 15px 0 15px 15px;
+    color: whitesmoke;    
+    width: 98%;
+    
+}
+
+input[type=date], input[type=number]{
+    padding: 5px;
+    width: 180px;
+}
+
+
+
+.form-content{
+    width: 40%;
+    box-sizing: border-box;    
+}
+
+.home-form form{
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  
+    align-items: center;  
+}
+
+.home-form button{
+    padding: 15px 30px 15px 30px;
+     background-color: rgb(85, 82, 82);
+     border: none;
+     font-size: 12px;
+     color: white;
+     font-weight: 600;
+     margin-right: 440px;
+     
+}
+
+.home-form button:hover{
+    background-color: lightgrey;
+}
+
+.home-form{
+    position: absolute;
+    left: 5%;
+    top: 25%;
+}
+
+.rooms-content{
+  width: 100%;
+  height: auto; 
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.ali form{
+  width: 100%;
+  display: flex;  
+}
+.form-content input{
+ width: 260px;
+ padding: 10px;
+ margin-right: 10px;
+}
+.rooms-content button{
+  background-color: black;
+  color: white;
+  border: 0;
+  width: 200px;
+  height: 40px;
+  padding: 10px 50px 10px 50px;
+}
+.rooms-content button:hover{
+  background-color: rgb(165, 160, 160);
+  color: black;
+}
+
+.roomf{
+  height: 75vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 20px;
+}
+.first{
+  margin-top: 15px;
+  width: 32%;
+  box-sizing: border-box;
+  background-color: white;
+}
+img{
+  width: 100%;
+}
+.first h1,h3,h4,p,.icon{
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.first h4:nth-child(1){
+  color: grey;
+}
+
+.first button{
+  width: 90%;
+  background-color: black;
+  color: white;
+  border: 0;
+padding: 12px;
+margin: 10px 20px 10px 20px;
+}
+.first button:hover{
+  background-color: lightgray;
+  color: black;
+}
+
+.About{
+  display: flex;
+  margin: 20px;
+}
+
+.About .left{
+  width: 30%;
+  font-size: 18px;
+  font-family: serif;
+  font-weight: 200;
+  opacity: 0.9;
+}
+.About .right{
+    width: 70%;
+}
+.About .right img{
+width: 100%;
+}
+
+.inf{
+  display: flex;
+}
+
+.one{
+  display: flex;
+ margin: 10px 140px 0 100px;
+ font-size: 18px;
+}
+.one h4{
+  color: red;
+}
+
+.demand{
+  width: 93%;
+  height: 30px;
+  display: flex;
+  margin: 20px;
+  color: white;
+  opacity: 0.7;
+  background-color: red;
+  padding: 45px;
+}
+.demand .info{
+  width: 33px;
+  height: 33px;
+  padding: 2px;
+  text-align: center;
+  background-color: rgb(255, 81, 0);
+  color: white;
+}
+.hotels{
+  margin: 20px;
+}
+.hotels .images{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+.hotels .right{
+  width: 50%;
+
+}
+.hotels .right img{
+  width: 100%;
+
+}
+.hotels .left{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.hotels .img{
+  width: 322px;
+}
+
+.email{
+  width: 100%;
+  padding: 40px 0 20px 25px;
+  background-color: black;
+  color: white;
+  opacity: 0.7;
+}
+.email:hover{
+  opacity: 1;
+}
+.email p{
+  margin: 10px 0 10px -8px;
+}
+.email input{
+ width: 96%;
+ padding: 10px;
+}
+.email button{
+  background-color: red;
+  color: white;
+  border: 0;
+  width: 160px;
+  height: 40px;
+  margin: 10px;
+  margin-top: 15px;
+  margin-left: 1px;
+  padding: 10px 50px 8px 50px;
+}
+.email button:hover{
+    background-color: lightgrey;
+    color: black;
+}
+
+.form{
+  width: 100%;
+  margin: 40px 0 20px 15px;
+  font-weight: 200;
+}
+.form p{
+  margin: 10px 0 25px -8px;
+}
+.service{
+  font-size: 15px;
+}
+.comp{
+  display: flex;
+  margin: -30px 0 -30px -8px;
+}
+.service h4{
+  color: red;
+}
+.form form input{
+  width: 97%;
+  padding: 18px;
+  margin: 8px 0;
+}
+.form form button{
+  background-color: black;
+  color: white;
+  border: 0;
+  font-size: 13px;
+  width: 210px;
+  height: 40px;
+  margin: 10px;
+  margin-top: 15px;
+  margin-left: 1px;
+  padding: 20px 50px 33px 50px;
+}
+.form form button:hover{
+  background-color: rgb(140, 134, 134);
+  color: black;
+}
+.footer{
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 320px;
+  text-align: center;
+  padding: 20px;
+}
